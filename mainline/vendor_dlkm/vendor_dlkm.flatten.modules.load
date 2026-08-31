@@ -1,0 +1,8 @@
+phy-zhihe-snps-usb2.ko
+phy-zhihe-snps-c10phy.ko
+drm_display_helper.ko
+dw-hdmi.ko
+th1520-dw-hdmi.ko
+drm_dma_helper.ko
+verisilicon-dc.ko
+dwc3-zhihe.ko

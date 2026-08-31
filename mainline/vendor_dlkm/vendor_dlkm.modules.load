@@ -1,0 +1,8 @@
+kernel/drivers/phy/zhihe/phy-zhihe-snps-usb2.ko
+kernel/drivers/phy/zhihe/phy-zhihe-snps-c10phy.ko
+kernel/drivers/gpu/drm/display/drm_display_helper.ko
+kernel/drivers/gpu/drm/bridge/synopsys/dw-hdmi.ko
+kernel/drivers/gpu/drm/bridge/th1520-dw-hdmi.ko
+kernel/drivers/gpu/drm/drm_dma_helper.ko
+kernel/drivers/gpu/drm/verisilicon/verisilicon-dc.ko
+kernel/drivers/usb/dwc3/dwc3-zhihe.ko
