@@ -1,3 +1,4 @@
+kernel/arch/riscv/kernel/iomb.ko
 kernel/arch/riscv/kvm/kvm.ko
 kernel/kernel/configs.ko
 kernel/fs/binfmt_misc.ko
@@ -190,6 +191,7 @@ kernel/drivers/virtio/virtio.ko
 kernel/drivers/virtio/virtio_ring.ko
 kernel/drivers/regulator/fixed.ko
 kernel/drivers/regulator/sun20i-regulator.ko
+kernel/drivers/regulator/zhihe-aon-regulator.ko
 kernel/drivers/tty/n_null.ko
 kernel/drivers/tty/serial/serial_base.ko
 kernel/drivers/tty/serial/8250/8250.ko
@@ -251,7 +253,6 @@ kernel/drivers/usb/common/usb-common.ko
 kernel/drivers/usb/core/usbcore.ko
 kernel/drivers/usb/dwc3/dwc3.ko
 kernel/drivers/usb/dwc3/dwc3-haps.ko
-kernel/drivers/usb/dwc3/dwc3-of-simple.ko
 kernel/drivers/usb/dwc3/dwc3-generic-plat.ko
 kernel/drivers/usb/host/ehci-hcd.ko
 kernel/drivers/usb/host/ehci-pci.ko
@@ -338,6 +339,7 @@ kernel/drivers/ufs/host/tc-dwc-g210.ko
 kernel/drivers/ufs/host/ufshcd-pci.ko
 kernel/drivers/ufs/host/ufshcd-pltfrm.ko
 kernel/drivers/firmware/efi/efi-pstore.ko
+kernel/drivers/firmware/zhihe/zhihe_aon.ko
 kernel/drivers/hid/hid.ko
 kernel/drivers/hid/uhid.ko
 kernel/drivers/hid/hid-generic.ko
@@ -378,6 +380,7 @@ kernel/drivers/vhost/vhost.ko
 kernel/drivers/vhost/vhost_iotlb.ko
 kernel/drivers/mailbox/sun6i-msgbox.ko
 kernel/drivers/mailbox/riscv-sbi-mpxy-mbox.ko
+kernel/drivers/mailbox/zhihe-mailbox.ko
 kernel/drivers/rpmsg/rpmsg_core.ko
 kernel/drivers/rpmsg/rpmsg_char.ko
 kernel/drivers/devfreq/governor_simpleondemand.ko
